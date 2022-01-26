@@ -1,0 +1,70 @@
+.form-signin .form-floating:focus-within {
+    z-index: 0;
+}
+
+.form-signin input[type="username"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-register input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.sidenav {
+    height: 96.3%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #282A63;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav h5 {
+    padding: 70px 6px 15px 32px;
+    font-size: 23px;
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: #040C55;
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-top: 80px;
+}
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img {-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;}
+    
+img:hover {-webkit-transform: scale(1.1); transform: scale(1.1);}
